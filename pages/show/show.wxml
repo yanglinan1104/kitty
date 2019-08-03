@@ -1,0 +1,4 @@
+<!--内部展示图-->
+<view class='show'> 
+  <image wx:for='{{show_pic}}' src='{{item.pic}}'></image>
+</view>
